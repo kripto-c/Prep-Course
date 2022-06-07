@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(6, 24, 63);
+}
+
+
+.container__header{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(26, 26, 26);
+    border-bottom:2px groove #fff;
+}
+img{
+    width:200px;
+    height:200px;
+    margin:20px;
+    object-fit: cover;
+}
+
+.container__main{
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(12, 7, 7);
+    text-align: center;
+}
+
+.fondo{
+    background:rgb(114, 114, 114);
+    margin:10px;
+    margin:5px;
+    padding:10px;
+}
+
+h2, h3, h4{
+    color:#eee;
+    margin:10px;
+    font-size:25px;
+}
+
+.subtitle{
+    color:rgb(173, 173, 173);
+    font-size: 23px;
+    align-self: center;
+}
+
+li{
+    margin:7px;
+    list-style: none;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.main__description{
+    height:150px;
+}
+
+.main__education{
+    width:50%;
+}
+
+.main__exp{
+    width:44%;
+}
+
+.main__skills{
+    width:100%;
+}
+.main__hobbie{
+ width: 100%;
+}
+
+.footer{
+    display: flex;
+
+}
+
+.wait, .why{
+    width:50%;
+}
